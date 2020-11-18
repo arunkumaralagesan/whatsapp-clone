@@ -1,0 +1,124 @@
+.chat {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-background);
+  padding: 10px;
+}
+
+.chat__profile {
+  display: flex;
+}
+.chat__profileInfo {
+  margin-left: 15px;
+}
+
+.chat__profileInfo > h3 {
+  font-size: 16px;
+}
+.chat__profileInfo > p {
+  font-size: 14px;
+  color: gray;
+}
+
+.chat__footer {
+  position: relative;
+  padding: 10px;
+  /* order: 3; */
+  background-color: var(--primary-background);
+  display: flex;
+  align-items: center;
+}
+
+.chat__footer .MuiSvgIcon-root {
+  color: gray;
+  font-size: 24px;
+}
+.chat__footerCenter{
+  padding: 0px 20px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0px 10px;
+}
+.chat__footerCenter > form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+form > button {
+  outline-width: 0px;
+  border: 0px;
+  cursor: pointer;
+  background-color: white;
+}
+form > button > .MuiIconButton-root {
+  background-color: white;
+  padding: 0px !important;
+}
+
+.chat__footerCenter input {
+  outline-width: 0;
+  border: none;
+  height: 40px;
+  width: 90%;
+}
+.MuiIconButton-root{
+  padding: 10px !important;
+}
+
+.chat__body {
+  flex: 1;
+  background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  overflow: scroll;
+  position: relative;
+}
+
+.chat__message  {
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.chat__message > .chat__name {
+  position: absolute;
+  top: -15px;
+  font-size: xx-small;
+  font-weight: bold;
+  left: 4px;
+}
+
+.chat__message > .chat__timeStamp {
+  margin-left: 10px;
+  font-size: xx-small;
+  font-weight: bold;
+}
+.chat__message.received {
+  align-self: flex-end;
+  background-color: #DCF8C6;
+}
+
+
+@media screen and (max-width: 768px) {
+  .chat{
+    flex: 1;
+  }
+}
