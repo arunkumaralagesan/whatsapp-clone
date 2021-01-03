@@ -53,7 +53,7 @@ function Chat({ messages }) {
                 <span className="chat__name">{message?.name}</span>
                 <span>{message?.message}</span>
                 <span className="chat__timeStamp">
-                  {new Date(message?.timeStamp).toGMTString()}
+                  {new Date(message?.timeStamp || new Date.now()).toLocaleTimeString("en-US")}
                 </span>
               </p>
             );

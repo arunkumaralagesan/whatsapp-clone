@@ -24,7 +24,7 @@ function App() {
     channel.bind("inserted", function (data) {
       setMessages([...messages, data]);
     });
-    window.scrollTo(0,document.body.scrollHeight);
+    document.querySelector('.chat__body').scrollTo(0, document.querySelector('.chat__body').scrollHeight);
 
     return () => {
       channel.unbind_all();
