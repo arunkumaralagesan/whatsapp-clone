@@ -111,7 +111,7 @@ form > button > .MuiIconButton-root {
   font-size: xx-small;
   font-weight: bold;
 }
-.chat__message.received {
+.chat__message.sent {
   align-self: flex-end;
   background-color: #DCF8C6;
 }

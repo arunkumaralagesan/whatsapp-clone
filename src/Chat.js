@@ -47,7 +47,7 @@ function Chat({ messages }) {
             return (
               <p
                 className={`chat__message ${
-                  message?.received ? "received" : ""
+                  message?.received ? "received" : "sent"
                 }`}
               >
                 <span className="chat__name">{message?.name}</span>
