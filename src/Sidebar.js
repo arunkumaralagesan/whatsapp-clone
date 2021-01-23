@@ -36,6 +36,15 @@ function Sidebar() {
         <SidebarChat name={" A"} />
         <SidebarChat name={" B"} />
         <SidebarChat name={" C"} />
+        <SidebarChat name={" D"} />
+        <SidebarChat name={" E"} />
+        <SidebarChat name={" F"} />
+        <SidebarChat name={" G"} />
+        <SidebarChat name={" H"} />
+        <SidebarChat name={" I"} />
+        <SidebarChat name={" J"} />
+        <SidebarChat name={" k"} />
+        <SidebarChat name={" L"} />
       </div>
     </div>
   );

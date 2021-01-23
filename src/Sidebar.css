@@ -50,6 +50,8 @@
   border-right: 1px solid rgba(0,0,0,0.03);
   background-color: white;
   flex: 1;
+  overflow: scroll;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
