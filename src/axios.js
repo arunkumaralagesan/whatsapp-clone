@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://salty-chamber-26455.herokuapp.com/'
+  baseURL: 'https://whatsapp-clone-backend-1f80b.herokuapp.com/'
 });
 
 export default instance;
