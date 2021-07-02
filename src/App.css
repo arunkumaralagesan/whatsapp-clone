@@ -1,9 +1,9 @@
 .app {
-
   height: 100vh;
   background-color: #dadbd3;
   flex: 1;
 }
+
 .app__body {
   display: flex;
   background-color: #dadbd3;
